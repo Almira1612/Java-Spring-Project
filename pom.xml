@@ -9,10 +9,6 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cydeo</groupId>
-    <artifactId>Java-Spring-Project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Java-Spring-Project</name>
-    <description>Java-Spring-Project</description>
     <properties>
         <java.version>11</java.version>
     </properties>
