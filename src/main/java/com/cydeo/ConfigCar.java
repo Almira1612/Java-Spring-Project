@@ -13,6 +13,7 @@ public class ConfigCar {
         return c;
     }
 
+    @Bean
     Person person(){
         Person p = new Person();
         p.setName("Mike");
