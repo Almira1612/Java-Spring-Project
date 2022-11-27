@@ -13,8 +13,18 @@ public class ConfigCar {
         return c;
     }
 
+    //Direct wiring
+//    @Bean
+//    Person person(){
+//        Person p = new Person();
+//        p.setName("Mike");
+//        p.setCar(car());
+//        return p;
+//    }
+
+    //Auto wiring
     @Bean
-    Person person(){
+    Person person(Car car){
         Person p = new Person();
         p.setName("Mike");
         p.setCar(car());
