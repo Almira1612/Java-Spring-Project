@@ -17,6 +17,7 @@ public class ConfigCar {
     Person person(){
         Person p = new Person();
         p.setName("Mike");
+        p.setCar(car());
         return p;
     }
 }
